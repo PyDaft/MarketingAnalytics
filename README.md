@@ -8,6 +8,17 @@
         <li><strong>Targeted Retention:</strong> Develop personalized strategies to keep customers engaged and loyal. CLV insights guide your retention efforts.</li>
       <br><hr><br>
       <b> Next Steps: I plan to commit all these graphs to an external dashboard in this case an excel sheet</b>
+      <br>
+      <h2>Update: 28th September 2024</h2>
+        <p>I have updated the solution to export and create daily dashboards for the data to an excel sheet.</p>
+        <p>The intent here is to have a solution to export marketing analytics snapshots to excel on a daily basis.</p>
+        <p>Here is how I have gone about solving this:</p>
+        <ol>
+        <li>I have used <code>openpyxl</code> and <code>os</code> to write to an excel file and perform file operations.</li>
+        <li>The code when run creates sheets in a single workbook pertinent to each date.</li>
+        <li>I have created a save to excel function that I call to perform and execute rudimentary ops such as writing and saving the file with the respective dashboards.</li>
+    </ol>
+    <p>Hope you have fun grinding thru. Happy Learning!!</p>
     </ol>
 </body>
 </html>
